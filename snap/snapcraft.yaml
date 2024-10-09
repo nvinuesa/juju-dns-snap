@@ -1,0 +1,40 @@
+name: juju-dns
+base: core22
+version: "0.1.0"
+summary: CoreDNS built with the Juju plugin along with a Corefile.
+description: |
+  This snap contains a CoreDNS server with the Juju plugin enabled.
+  It is meant to be used in the Juju DNS charm (https://github.com/nvinuesa/juju-dns-charm).
+
+architectures:
+  - build-on: [amd64]
+    build-for: [amd64]
+  - build-on: [arm64]
+    build-for: [arm64]
+grade: devel
+confinement: strict
+
+parts:
+  juju-dns:
+    plugin: go
+    build-snaps: [go/latest/stable]
+    source: juju-dns
+    source-type: local
+  wrappers:
+    plugin: dump
+    source: snap/local
+
+apps:
+  juju-dns:
+    command: start-juju-dns.sh
+    daemon: simple
+    plugs:
+      - network
+      - network-bind
+      - dot-local-share-juju-dns
+
+plugs:
+  dot-local-share-juju-dns:
+    interface: personal-files
+    read:
+      - $HOME/.local/share/juju-dns

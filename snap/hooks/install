@@ -1,0 +1,4 @@
+#!/bin/sh -eu
+
+cp $SNAP/config/Corefile $SNAP_DATA/config
+exit 0
