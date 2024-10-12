@@ -31,10 +31,3 @@ apps:
     plugs:
       - network
       - network-bind
-      - dot-local-share-juju-dns
-
-plugs:
-  dot-local-share-juju-dns:
-    interface: personal-files
-    read:
-      - $HOME/.local/share/juju-dns
