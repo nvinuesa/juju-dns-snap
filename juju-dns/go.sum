@@ -424,6 +424,14 @@ github.com/nvinuesa/juju-coredns-plugin v0.0.0-20241012194332-fbdbc149f991 h1:xC
 github.com/nvinuesa/juju-coredns-plugin v0.0.0-20241012194332-fbdbc149f991/go.mod h1:k1/3d2T4OgoNZXIhRMgujp8Y/xSLiB4NjA1tCTqCKro=
 github.com/nvinuesa/juju-coredns-plugin v0.0.0-20241012194609-d04ded339c23 h1:ERqUGUAYxHDF4OEXOboZDnu+Krp6Piub/Gu2YT1L9DE=
 github.com/nvinuesa/juju-coredns-plugin v0.0.0-20241012194609-d04ded339c23/go.mod h1:k1/3d2T4OgoNZXIhRMgujp8Y/xSLiB4NjA1tCTqCKro=
+github.com/nvinuesa/juju-coredns-plugin v0.0.0-20241012221253-e2db8e76c3b3 h1:RtONG07NTp9yKV0t0RA/I0sFw7pNog/nHfWu8tUsofo=
+github.com/nvinuesa/juju-coredns-plugin v0.0.0-20241012221253-e2db8e76c3b3/go.mod h1:k1/3d2T4OgoNZXIhRMgujp8Y/xSLiB4NjA1tCTqCKro=
+github.com/nvinuesa/juju-coredns-plugin v0.0.0-20241012221525-8dfc2ebebf34 h1:EmQm/0bPhLHTpO5uVW/05P+C1snXf6ZHeS7m+WUyr38=
+github.com/nvinuesa/juju-coredns-plugin v0.0.0-20241012221525-8dfc2ebebf34/go.mod h1:k1/3d2T4OgoNZXIhRMgujp8Y/xSLiB4NjA1tCTqCKro=
+github.com/nvinuesa/juju-coredns-plugin v0.0.0-20241013091313-b8b985e06b8c h1:Ql1N9/JWU9oHD9Fbf6+l6XZ77UitnC88wcwa5Un07HI=
+github.com/nvinuesa/juju-coredns-plugin v0.0.0-20241013091313-b8b985e06b8c/go.mod h1:k1/3d2T4OgoNZXIhRMgujp8Y/xSLiB4NjA1tCTqCKro=
+github.com/nvinuesa/juju-coredns-plugin v0.0.0-20241013091559-fd6dcbc650b7 h1:gy17gw3UEtlospZ06QzIAqpBBvnM5QuszX9oFUTRYJI=
+github.com/nvinuesa/juju-coredns-plugin v0.0.0-20241013091559-fd6dcbc650b7/go.mod h1:k1/3d2T4OgoNZXIhRMgujp8Y/xSLiB4NjA1tCTqCKro=
 github.com/onsi/ginkgo/v2 v2.13.0 h1:0jY9lJquiL8fcf3M4LAXN5aMlS/b2BV86HFFPCPMgE4=
 github.com/onsi/ginkgo/v2 v2.13.0/go.mod h1:TE309ZR8s5FsKKpuB1YAQYBzCaAfUgatB/xlT/ETL/o=
 github.com/onsi/gomega v1.29.0 h1:KIA/t2t5UBzoirT4H9tsML45GEbo3ouUnBHsCfD2tVg=
