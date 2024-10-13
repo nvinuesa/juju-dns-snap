@@ -1,6 +1,7 @@
 name: juju-dns
 base: core22
 version: "0.1.0"
+license: Apache-2.0
 summary: CoreDNS built with the Juju plugin along with a Corefile.
 description: |
   This snap contains a CoreDNS server with the Juju plugin enabled.
