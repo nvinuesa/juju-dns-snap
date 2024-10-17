@@ -1,5 +1,4 @@
 #!/bin/sh -eu
 
-mkdir -p $SNAP_DATA/etc
-cp $SNAP/config/Corefile $SNAP_DATA/etc
+cp $SNAP/config/Corefile $SNAP_COMMON
 exit 0
